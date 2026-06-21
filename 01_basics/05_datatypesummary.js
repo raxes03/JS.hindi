@@ -39,4 +39,30 @@
                     }
                     console.log(typeof bifNumber);
                      
+
+
+                    /***********************memory********************** */
+
+
+                // there is two type of this memory 1.stack and 2. is heap 
+                //stack premitive hota hai 
+                //heap non premitive hoti hai 
+                let myYoutubename = "rakeshsinghcom"
+
+                let anothername = myYoutubename 
+                anothername = "chaiaurcode"
+                console.log(anothername);
+                console.log(myYoutubename);
                 
+
+                let user = {
+                    email:"user@gmail.com",
+                    upi:"user@ybl",
+
+                }
+                
+
+                let userTwo = user;
+                userTwo.email="rakesh@google.com"
+                console.log(user.email);
+                console.log(userTwo.email);
